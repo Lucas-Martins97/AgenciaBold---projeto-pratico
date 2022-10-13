@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.logo-menu{
+    width: 50%;
+}
+
+.itens-menu{
+    width: 50%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.itens-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itens-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+.itens-menu a.contact-btn{
+    background: #0F3FD3 ;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.itens-menu a.contact-btn:hover{
+    border-bottom: none;
+    background-color: #1f88ff;
+}
+
+.mockup{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mockup h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.mockup img{
+    max-width: 100%;
+}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+section.marcas img{
+    width: calc(100%/5);
+}
+
+section.porque-nos{
+    padding:  40px 0;
+    background-color: #f6f8fc;
+    
+}
+
+section.porque-nos > .center >h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center >p{
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+section.porque-nos > .center{
+max-width: 1280px;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.box-diferenciais>p{
+ color: #ccc;
+ text-align: justify;
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+
+.box-diferenciais>h3{
+    font-size: 18px;
+    margin: 20px 0;
+   }
+   section.cta{
+    background-image:url('images/banner.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 20px;
+    text-align: center;
+    color: white;
+   }
+   section.cta h2,
+   section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+   }
+
+   section.cta h2{
+    font-size: 40px;
+   }
+
+   section.cta a{
+    display: inline-block;
+    text-decoration: none;
+    background: #FFDD33;
+    padding: 8px 15px;
+    color:#0f3fd3;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 17px;
+   }
+
+.lista-beneficios{
+    width: 50%;
+}
+.img-beneficios{
+    width: 50%;
+}
+.img-beneficios img{
+    max-width: 650px;
+    margin-top: -35px;
+}
+.lista-beneficios p{
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+.lista-beneficios img{
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+section .beneficios{
+    padding: 50px 0;
+}
+.beneficios{
+    margin-top: 60px;
+}
+
+.lista-beneficios h1 {
+    color: black;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.lista-beneficios a {
+    text-decoration: none;
+    background:#255AFF;
+    padding: 11px 20px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding: 40px 0;
+}
+
+section.depoimentos h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.container-slider{
+    overflow: hidden;
+}
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+.container-slider-single p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color:  grey;
+    font-size: 13px;
+}
+
+.container-slider img{
+    width: 70px;
+}
+
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    font-size: 50px;
+}
+
+section.contato form{
+    width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=email] {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    background:#fcfdff;
+    border: 1px solid #c3cce8;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.contato textarea {
+    width: 100%;
+    height: 120px;
+    margin: 5px 0;
+    background:#fcfdff;
+    border: 1px solid #c3cce8;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contato input[type=submit]{
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    color: white;
+    background:#255aff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    background:#255aff;
+    color: white; 
+    padding: 10px 0;   
+    display: inline-flex;
+    width: 100%;
+}
+
+.texto-footer{
+    width: 100%;
+    padding: 8px 0;
+    margin-left: 30px;
+}
+
+footer>.itens-menu{
+    margin-left: 120px;
+}
+
+.itens-menu-mobile{
+    display: none;
+    width: 50%;
+    text-align: right;
+}
+.itens-menu-mobile i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    position: relative;
+    top: 18px;
+}
+/****SLICK SLIDER****/
+
+
+.slick-slide{
+    margin-left: 27px;
+}
+
+.slick-list{
+    margin-left: 27px;
+}
+
+
+.slick-slide{
+    margin-left: 27px;
+}
+
+.slick-list{
+    margin-left: 27px;
+}
+
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin-top:80px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
+/* medias screen - responsividade */ 
+
+@media screen and (max-width: 768px) { /*mobile*/
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;
+    }
+    section.marcas{
+        text-align: center;
+    }
+    section.marcas>.center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.marcas img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .diferenciais{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.porque-nos>.center> h2{
+        font-size: 50px;
+    }
+    section.cta h2{
+        font-size: 20px;
+       }
+       section.cta h4{
+        font-size: 10px;
+       }
+       section.cta a{
+        display: inline-block;
+        text-decoration: none;
+        background: #FFDD33;
+        padding: 4px 10px;
+        color:#0f3fd3;
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 13px;
+       }
+       .lista-beneficios,.img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+       }
+       .img-beneficios{
+        margin-top: 30px;
+        margin-left:9px;
+       }
+       .img-beneficios img{
+        width: 358px;
+       }
+       .lista-beneficios a{
+        margin-left: 100px;
+       }
+       
+        footer{
+            display: block;
+        }
+        .texto-footer{
+            width: 100%;
+            padding: 2px 0;
+            text-align: center;
+            font-size: 12px;
+            margin-left: 0; 
+        }
+        footer>.itens-menu{
+            margin-left: 0px;
+            width: 100%;
+            display: grid;
+            text-align: center;
+        }
+        footer>.itens-menu a{
+            width: 50%;
+            margin:5px 100px;
+        }
+        .itens-menu-mobile{
+            display: block;
+        }
+        section.main .itens-menu{
+            display: none;
+        }
+        .menu-mobile{
+            position: absolute;
+            left: 0;
+            top: 65px;
+            width: 100%;
+            padding: 20px 0;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            transition: 1s;
+            opacity: 0;
+        }
+
+        .show{
+            opacity: 1;
+            display: block;
+        }
+        .hide{
+            opacity: 0;
+        }
+        .menu-mobile a{
+            text-align: center;
+            display: block;
+            margin: 10px 0;
+            color: black;
+            text-decoration: none;
+            border-bottom: 1px solid grey;
+            padding: 5px 0;
+        }
+}
